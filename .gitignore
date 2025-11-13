@@ -1,0 +1,19 @@
+# Raw nmap outputs and captures (never commit these to public repo)
+scans/raw/
+*.nmap
+*.gnmap
+*.xml
+*.pcap
+
+# SSH keys / certs
+id_*
+*.pem
+*.key
+*.crt
+
+# Env / secrets / logs
+.env
+*.log
+
+# OS artifacts
+.DS_Store
